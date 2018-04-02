@@ -32,6 +32,7 @@ span {
 .label-value{
     width: 200px;
     vertical-align: top;
+    color: #000000;
 }
 
 .iconfont {
@@ -51,8 +52,8 @@ span {
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 500;
-    color: #607d8b;
+    font-weight: bold;
+    color: #000000;#607d8b;
     line-height: 1.5;
 }
 
@@ -131,6 +132,7 @@ footer {
 
 p {
     line-height: 1.5;
+    color: #000000;
 }
 
 progress {
@@ -138,24 +140,23 @@ progress {
     display: inline;
     /*width: 195px;*/
     height: 1em;
-
 }
 
 progress::-webkit-progress-bar {
-    background-color: #e0eaf0;
+    background-color: #ffffff;e0eaf0;
 }
 
 progress::-webkit-progress-value {
-    background-color: #708d9b;
+    background-color: #686868;708d9b;
 }
 
 progress::-moz-progress-bar {
-    background-color: #e0eaf0;
+    background-color: #ffffff;e0eaf0;
 
 }
 
 progress::-moz-progress-value {
-    background-color: #708d9b;
+    background-color: #000000;708d9b;
 }
 
 .progress-list {
@@ -171,7 +172,7 @@ progress::-moz-progress-value {
 
 .weixin{
     margin-top: 20px;
-    background-color: #e0eaf0;   
+    background-color: whitesmoke;#e0eaf0;   
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -185,17 +186,18 @@ progress::-moz-progress-value {
 .left-label {
     display: inline-block;
     width: 120px;
+    color: #000000;
 }
 
 .portrait {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-image:url('D:\\360data\\重要数据\\桌面\\个人\\IMG_90972 1寸.jpg');
+    background-size: 90%;
     background-position:center;
     border-radius:50%;
-    border:5px solid #607d8b;
+    border:5px solid #686868;607d8b;
     width:160px;
     height:160px;
 }
