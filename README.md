@@ -1,1 +1,1 @@
-# This is a CV for myself
+# This is a CV template using html.
